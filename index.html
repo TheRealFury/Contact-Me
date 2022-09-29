@@ -1,65 +1,71 @@
-<html>
-<head>
-    <title>Contact Me</title>
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <!-- HTML Specifics -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Title of the Webpage -->
+    <title>Ayush Bhatt</title>
+
+    <!-- Reference to Bootstrap CSS Files -->
+    <link href="./bootstrap.min.css" rel="stylesheet">
+    <link href="./headers.css" rel="stylesheet">
+    <link href="./heroes.css" rel="stylesheet">
+
     <style>
-        img {
-          display: block;
-          margin-left: auto;
-          margin-right: auto;
-        }
-    </style>
-    <style>
-      .sideDiv {
-        border: 1px outset black;
-        background-color: white;
-        text-align: center;
-        width: 120;
-        height: 400;
+      .breaker{
+        width: 100%;
+        height: 50px;
       }
     </style>
-    <style>
-      .mainDiv {
-        border: 1px outset black;
-        background-color: white;
-        text-align: left;
-        width: 1220;
-        height: 400;
-      }
-    </style>
-    <style>
-      .invisiDiv {
-        border: 1px outset white;
-        background-color: white;
-      }
-    </style>
-    <a href="https://ayushbhatt.in"><img src="AyushLogo.png" alt="logo" height="9%" width="9%" style="float:left"></a>
-    <br> &nbsp; &nbsp;
-    <a href="https://ayushbhatt.in/About-Me"><button>About Me</button></a> &nbsp; &nbsp;
-    <a href="https://ayushbhatt.in/My-Achievements"><button>My Achievements</button></a> &nbsp; &nbsp;
-    <a href="https://ayushbhatt.in/Contact-Me"><button>Contact Me</button></a> <br><br>
-    <hr>
-</head>
-<body bgcolor="lightblue">
-  <div style="display: flex; flex-direction: row;" hidden>
-  <div class="sideDiv" style="background-color: lightgreen;">
-      <br> <a href="https://ayushbhatt.in"><button>Home Page</button></a>
-      <br> <br> <a href="https://ayushbhatt.in/Games"><button>Games</button></a>
-  </div> &nbsp;
-  <div class="mainDiv" style="background-color:bisque;">
-      <h3> &nbsp; &nbsp; Here are my contact details :-</h3>
-      <p> &nbsp; &nbsp; 📧 Mail - ayush.abhi.bhatt@gmail.com</p>
-      <p> &nbsp; &nbsp; 😺 Github - TheRealFury</p>
-      <p> &nbsp; &nbsp; ❓ Stack Exchange / Stack Overflow - InfinityMilestone</p>
-      <p> &nbsp; &nbsp; You can contact me over any of these mediums, whether it is to collaborate for a programming project, or anything else.</p>
-  </div>
-  </div>
-  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
-<df-messenger
-  chat-icon="https:&#x2F;&#x2F;www.google.com&#x2F;imgres?imgurl=https%3A%2F%2Fscx2.b-cdn.net%2Fgfx%2Fnews%2Fhires%2F2019%2F3-robot.jpg&ampimgrefurl=https%3A%2F%2Ftechxplore.com%2Fnews%2F2021-01-ces-robots.html&amptbnid=k5j75H3TlCaAiM&ampvet=12ahUKEwi80YrJkf3wAhX6k0sFHdrrBJYQMygKegUIARDsAQ..i&ampdocid=0DMYMUlwbbntyM&ampw=1920&amph=1771&ampq=robot&ampved=2ahUKEwi80YrJkf3wAhX6k0sFHdrrBJYQMygKegUIARDsAQ"
-  intent="WELCOME"
-  chat-title="WebAgent"
-  agent-id="ecf17201-eb5b-4308-afa7-508d27e12b07"
-  language-code="en"
-></df-messenger>
-</body>
+
+  </head>
+  <body style="background-color:white">
+      <!-- Top Navigation Bar -->
+      <div class="container" style="background-color:white">
+        <header class="d-flex flex-wrap justify-content-center py-2 mb-3 border-bottom">
+          <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+          
+            <span class="fs-4">Ayush Bhatt</span>
+          </a>
+
+          <!-- Page Link Names and URLs -->
+          <ul class="nav nav-pills">
+            <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">About Me</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Achievements</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">My Projects</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Contact me</a></li>
+          </ul>
+        </header>
+      </div>
+
+      <!-- Breaker -->
+      <div style="background-color: lightgrey;" class="breaker"></div>
+
+      <!-- Center of Attraction -->
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold lh-1 mb-3">Let's talk!</h1>
+            <p class="lead"> 📧 Mail : ayush.abhishek.bhatt@gmail.com <br> 📧 Alternate Mail : ayush.abhi.bhatt@gmail.com <br> 📧 Microsoft or Teams : ayush.abhshek.bhatt@gmail.com <br> 😺 GitHub : TheRealFury</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- End of page -->
+      <div style="background-color: lightslategray">
+        <br>
+        <p style="text-align:center;color:black;font-size:13px;">This site uses Bootstrap.</p>
+        <br><br><br><br><br><br>
+      </div>
+    </main>
+    
+    <!-- Link to Bootstrap JS File -->
+    <script src="./bootstrap.bundle.min.js"></script>
+  </body>
 </html>
